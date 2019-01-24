@@ -12,7 +12,7 @@
    Filename: wm_forms.css
 
 */
-
+/* This style removes the border from fieldsets, sets width to 60% with top/bottom margin of 2 pixels.*/
 /* Field Set Styles */
 fieldset {
     border: none;
@@ -22,7 +22,7 @@ fieldset {
     margin-left: 0px;
     margin-right: 0px;
 }
-
+/* This style affects legends nested within fieldsets to give them a gray background color, width of 100% with top/bottom margin of 2 pixels.*/
 legend {
     background-color: rgb(232, 232, 232);
     width: 100%;
@@ -35,6 +35,7 @@ legend {
 
 
 /* DIV Styles */
+/* This style affects div elements with the class of slider to float them left and a width of 60% with top/bottom margin of 2 pixels.*/
 div.slider {
     float: left;
     width: 60%;
@@ -48,6 +49,8 @@ div.slider {
 
 
 /* Control Styles */
+/* This style floats label elements on the left margin when the left margin is clear, displays as block, a width of 40% with top/bottom margin of 2 pixels. */
+
 label {
     float: left;
     clear: left;
@@ -58,6 +61,7 @@ label {
     margin-left: 0px;
     margin-right: 0px;
 }
+/* This style affects input elements and selection lists to give them a top/bottom margin of 2 pixels. */
 
 input,
 select {
@@ -66,10 +70,12 @@ select {
     margin-left: 0px;
     margin-right: 0px;
 }
+/* This style affects input elements with the type attribute value of range to set their width to 60%. */
 
 input[type="range"] {
     width: 60%;
 }
+/* This style displays selection lists as blocks and floats them on the left margin with a width of 120 pixels. */
 
 select {
     display: block;
@@ -77,12 +83,14 @@ select {
     width: 120px;
 }
 
+/* This style affects input elements with the type attribute value of color to display as block and float them to the left margin with a width of 75 pixels. */
 
 input[type="color"] {
     display: block;
     float: left;
     width: 75px;
 }
+/* This style sets width of textarea elements to 100%, a height of 200 pixels, font size of 1.5em, and 15 pixels of bottom margin. */
 
 textarea {
     font-size: 1.5em;
@@ -91,7 +99,8 @@ textarea {
     bottom: 15px;
 }
 
-
+/* These styles affect placeholder text within text area boxes to set the background color to rgb(255, 255, 191), set the text color to rgb(255, 151, 151), and set the font size to 1.5em, for WebKit, Moz, and MS extensions.
+ */
 /* Placeholder Styles */
 textarea::-moz-placeholder {
     background-color: rgb(255, 255, 191);
